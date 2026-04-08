@@ -1,11 +1,10 @@
 {
   "mcpServers": {
     "mcp-unreal": {
-      "command": "uv",
+      "command": "uvx",
       "args": [
-        "--directory",
-        "C:/GitHub/mcp-unreal",
-        "run",
+        "--from",
+        "git+https://github.com/OpenKotOR/mcp-unreal",
         "mcp-unreal"
       ],
       "env": {
